@@ -28,6 +28,10 @@ To read: python3 example.py
 
 **Example would be sprint1 or sprint2
 
+**NOTE: When typing in City/town names make sure there is no space after prompt
+  ex: Enter start locationBelmar
+  Above would be an example of a user input
+
 
 The program will run and load up a map of the area, in this case it is New Jersey, then it will ask the user for the number of 
 trucks/routes that are needed. After that it will ask the user to enter a starting location and an ending location for each route,
