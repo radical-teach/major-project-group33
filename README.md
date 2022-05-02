@@ -16,13 +16,13 @@ python3 -m pip install scikit-learn
 
 python3 -m pip install folium
 
-To write: nano sprint2.py
+To write: nano example.py
 
-copy code from sprint1.py
+copy code from sprint1.py (or sprint2.py)
 
 save and exit (cntrl+o, enter, cntrl+x)
 
-To read: python3 sprint2.py
+To read: python3 example.py
 
 
 The program will run and load up a map of the area, in this case it is New Jersey, then it will ask the user for the number of 
