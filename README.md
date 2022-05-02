@@ -9,9 +9,13 @@ Using pip you will need to download the latest version of python, osmnx, geopy, 
 We used nano as our compiler of choice to write and read the code files. 
 
 python3 -m pip install osmnx 
+
 python3 -m pip install geopy
+
 python3 -m pip install sickit-learn
+
 python3 -m pip install folium
+
 
 To write: nano sprint2.py
 To read: python3 sprint2.py
