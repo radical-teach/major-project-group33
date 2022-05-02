@@ -32,7 +32,12 @@ To read: python3 example.py
   ex: Enter start locationBelmar
   Above would be an example of a user input
   
+**Additionally code can also be ran through google colab (which displays the map and routes chosen unlike through the console
+  
 **OUTPUT IN SPRINT 1 IS IN METERS UNLESS THE GOOGLE COLAB IS USED (WHICH SHOWS THE MAP AND ROUTE CHOSEN)
+
+Google Colab Sprint 1: https://colab.research.google.com/drive/1OTuaKCbxADjjTIi_lTUdXs8FOYyMHwUa?usp=sharing
+Google Colab Sprint 2: https://colab.research.google.com/drive/1iTDwOpVFuOK5XR9o6LBZIijnhaLkQIP9?usp=sharing
 
 
 The program will run and load up a map of the area, in this case it is New Jersey, then it will ask the user for the number of 
