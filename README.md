@@ -8,6 +8,8 @@ Packages needed to download to run the code on a linux machine (Syntax using pip
 Using pip you will need to download the latest version of python, osmnx, geopy, sickit-learn, and folium. 
 We used nano as our compiler of choice to write and read the code files. 
 
+**The code might take a long time to run depending on the ram of the memory
+
 python3 -m pip install osmnx 
 
 python3 -m pip install geopy
