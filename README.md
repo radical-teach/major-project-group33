@@ -12,12 +12,15 @@ python3 -m pip install osmnx
 
 python3 -m pip install geopy
 
-python3 -m pip install sickit-learn
+python3 -m pip install scikit-learn
 
 python3 -m pip install folium
 
-
 To write: nano sprint2.py
+
+copy code from sprint1.py
+
+save and exit (cntrl+o, enter, cntrl+x)
 
 To read: python3 sprint2.py
 
