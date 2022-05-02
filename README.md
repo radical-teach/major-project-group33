@@ -18,7 +18,9 @@ python3 -m pip install folium
 
 
 To write: nano sprint2.py
+
 To read: python3 sprint2.py
+
 
 The program will run and load up a map of the area, in this case it is New Jersey, then it will ask the user for the number of 
 trucks/routes that are needed. After that it will ask the user to enter a starting location and an ending location for each route,
