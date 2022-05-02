@@ -31,6 +31,8 @@ To read: python3 example.py
 **NOTE: When typing in City/town names make sure there is no space after prompt
   ex: Enter start locationBelmar
   Above would be an example of a user input
+  
+**OUTPUT IN SPRINT 1 IS IN METERS UNLESS THE GOOGLE COLAB IS USED (WHICH SHOWS THE MAP AND ROUTE CHOSEN)
 
 
 The program will run and load up a map of the area, in this case it is New Jersey, then it will ask the user for the number of 
