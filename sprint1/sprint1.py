@@ -6,7 +6,7 @@ ox.config(log_console=True, use_cache=True)
 from geopy.geocoders import Nominatim
 locator = Nominatim(user_agent = "MajorProject")
 
-place     = 'New Jersey' #location
+place     = 'Rhode Island' #location
 mode      = 'drive' #transportation mode
 optimizer = 'length' #optimization for time
 
@@ -14,8 +14,8 @@ graph = ox.graph_from_place(place, network_type = mode, retain_all=False, trunca
 
 warnings.filterwarnings("ignore") #ignore warning given (the warning is just a diff way of using"ox.get_nearest_node")
 
-start_location = input("Enter start location")
-end_location = input("Enter end location")
+start_location = input("Enter start location: ")
+end_location = input("Enter end location: ")
 
 start_latlng = locator.geocode(start_location).point
 end_latlng = locator.geocode(end_location).point
