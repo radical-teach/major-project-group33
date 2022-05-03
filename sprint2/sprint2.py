@@ -6,7 +6,7 @@ ox.config(log_console=True, use_cache=True)
 from geopy.geocoders import Nominatim
 locator = Nominatim(user_agent = "MajorProject")
 
-place     = 'New Jersey' #location
+place     = 'Rhode Island' #location
 mode      = 'drive' #transportation mode
 optimizer = 'length' #optimization for time
 
@@ -17,8 +17,8 @@ totallength = 0
 
 for i in range(int(T)):
 
-  start_location = input("Enter start location")
-  end_location = input("Enter end location")
+  start_location = input("Enter start location ")
+  end_location = input("Enter end location ")
 
   start_latlng = locator.geocode(start_location).point
   end_latlng = locator.geocode(end_location).point
