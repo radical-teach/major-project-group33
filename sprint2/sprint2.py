@@ -12,13 +12,13 @@ optimizer = 'length' #optimization for time
 
 graph = ox.graph_from_place(place, network_type = mode, retain_all=False, truncate_by_edge=True, simplify=False) #graph of layout of Europe
 
-T = input("Enter number of Trucks:")
+T = input("Enter number of Trucks: ")
 totallength = 0
 
 for i in range(int(T)):
 
-  start_location = input("Enter start location ")
-  end_location = input("Enter end location ")
+  start_location = input("Enter start location: ")
+  end_location = input("Enter end location: ")
 
   start_latlng = locator.geocode(start_location).point
   end_latlng = locator.geocode(end_location).point
